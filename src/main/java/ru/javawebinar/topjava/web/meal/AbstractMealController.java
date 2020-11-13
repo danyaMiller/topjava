@@ -29,6 +29,7 @@ public abstract class AbstractMealController {
         return service.get(id, userId);
     }
 
+
     public void delete(int id) {
         int userId = SecurityUtil.authUserId();
         log.info("delete meal {} for user {}", id, userId);
