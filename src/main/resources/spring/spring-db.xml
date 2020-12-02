@@ -20,6 +20,7 @@
 
     <!-- Choose profile from (hsqldb/ postgres) and (jdbc/ datajpa/ jpa) -->
 
+
     <tx:annotation-driven/>
 
     <beans profile="hsqldb">
