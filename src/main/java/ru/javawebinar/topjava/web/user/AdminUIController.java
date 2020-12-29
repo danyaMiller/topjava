@@ -27,6 +27,7 @@ public class AdminUIController extends AbstractUserController {
         return super.get(id);
     }
 
+
     @Override
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
